@@ -39,22 +39,17 @@ const skills = [
 const Skills = () => {
   return (
     <>
-      <section className="my-24">
+      <section id="skills" className="p-12">
         <div className="container">
           <h2 className="text-4xl text-end font-preahvihear mb-8">
             Technologies and Frameworks
           </h2>
 
-          <div className="grid lg:grid-cols-4 xl:grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-6">
             {skills.map((skill, index) => (
               <div
                 key={index}
-                style={{
-                  background:
-                    "linear-gradient(163deg, #130428 7.29%, #251043 34.38%, #38126D 56.77%, #261045 84.90%, #190634 100%)",
-                  boxShadow: "4px 7px 26px 0px rgba(0, 0, 0, 0.12)",
-                }}
-                className="rounded-xl flex flex-col justify-center items-center px-4 py-6 border-t border-primaryLight2"
+                className="bgCustomGradient customShadow rounded-xl flex flex-col justify-center items-center px-4 py-6 border-t border-primaryLight2"
               >
                 <div style={{ color: skill?.brandColor || "#fff" }} className="text-5xl mb-4">
                   {skill?.icon}
