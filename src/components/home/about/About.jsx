@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section id="about" className="py-12">
       <div className="container">
-        <div>
+        <div className="font-preahvihear">
           <h1 className="text-[1.5rem] sm:text-3xl lg:text-5xl">I'm a Web Developer.</h1>
           <h5 className="sm:text-xl group underline mt-2 sm:mt-4 mb-8 sm:mb-10">
             <Link to="https://github.com/minhaj06/" target="_blank">

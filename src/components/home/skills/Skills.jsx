@@ -39,7 +39,7 @@ const skills = [
 const Skills = () => {
   return (
     <>
-      <section id="skills" className="p-12">
+      <section id="skills" className="py-12">
         <div className="container">
           <h2 className="text-4xl text-end font-preahvihear mb-8">
             Technologies and Frameworks
